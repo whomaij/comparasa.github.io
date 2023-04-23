@@ -73,3 +73,9 @@ img {
 .informacao-de-integrantes legend {
 	font-size: 25px;
 }
+
+
+.container-de-video {
+	margin: 40px auto;
+	text-align: center;
+}
