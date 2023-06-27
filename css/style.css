@@ -1,0 +1,13 @@
+/*<!-- <input type="color" name="" id="color-select"> -->*/
+
+body {
+	margin: 0 auto;
+	background-color: gray;
+	font-family: arial;
+}
+
+.container {
+	background-color: gray;
+	overflow: hidden;
+	width: 100%;
+}

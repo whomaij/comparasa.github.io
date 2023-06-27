@@ -1,0 +1,62 @@
+header {
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+	font-family: ;
+	z-index: 99;
+}
+
+header .header-container {
+	display: flex;
+}
+
+header .main-title-container {
+	width: 35%;
+	transition: .5s;
+	cursor: pointer;
+	position: relative;
+	left: 10px;
+}
+
+header .main-title-container:active {
+	transition: .5s;
+	transform: rotate(360deg);
+
+}
+
+/*Configuração do texto do cabeçalho*/
+
+header #main-title {
+	font-size: 340%;
+	margin: 0 20px 0 0;
+	padding: 20px;
+	color: orange;
+	line-height: 125%;
+	text-shadow: -1px 1px 2px rgba(0, 0, 0, .4);
+}
+
+
+/*Configuração dos separadores*/
+header .seps {
+	float: left;
+	width: 65%;
+
+
+}
+
+header .sep {
+	height: 110px;
+	width: 50%;
+}
+
+header .sep1 {
+	background-color: orange;
+	float: right;
+}
+
+header .sep2 {
+	background-color: #17ceff;
+	float: left;
+}

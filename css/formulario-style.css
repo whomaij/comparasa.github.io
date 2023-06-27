@@ -1,0 +1,84 @@
+.formulario {
+	padding: 10px 0px 0px 20px;
+	border-radius: 10px;
+	background-color: orange;
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+}
+
+.formulario legend {
+	color: white;
+	background-color: gray;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, .6);
+	font-size: 20px;
+	border-bottom: 2px solid gray;
+	margin-left: -20px;
+	text-indent: 10px;
+	padding-top: 10px;
+	position: relative;
+	bottom: 10px;
+
+}
+
+.formulario .pergunta {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.formulario .pergunta:after {
+	content: "\1F928";
+	background-color: white;
+	margin-left: 10px;
+	padding: 5px;
+	border-radius: 100px;
+}
+
+
+.caixa-de-selecao {
+	background-color: dodgerblue;
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 0 2px rgba(0, 0, 0, .5);
+	border: 1px solid gray;
+	padding: 5px;
+	width: 35%;
+}
+
+
+.formulario input[type="button"] {
+	background-color: dodgerblue;
+	color: white;
+	font-size: 20px;
+	padding: 2% 20%;
+	border: none;
+	text-shadow: 0 0 4px rgba(0, 0, 0, 1);
+	background: linear-gradient(90deg, purple, blue, green, yellow, orange, red);
+	font-weight: bold;
+	border-radius: 100px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+}
+
+.formulario input[type="button"]:active {
+	
+}
+
+
+.formulario input[type="radio"] {
+	transform: scale(1.5);
+	position: relative;
+	left: 26px;
+}
+
+.formulario label {
+	color: white;
+	font-size: 20px;
+	text-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	background-color: dodgerblue;
+	padding: 5px;
+	border-left: 25px solid white;
+	margin: 0;
+}

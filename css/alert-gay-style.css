@@ -1,0 +1,32 @@
+.alert-gay {
+	display: none;
+	background: linear-gradient(90deg, purple, blue, green, yellow, orange, red);
+	z-index: 99;
+	color: white;
+	text-shadow: 0 0 10px rgba(0, 0, 0, .6);
+	text-align: center;
+	border-radius: 100px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 1.0);
+	width: 50%;
+
+}
+
+.alert-gay img {
+	width: 100%;
+}
+
+.alert-gay .closeAlert {
+	background-color: white;
+	border: none;
+	border-radius: 100px;
+	height: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+	width: 100%;
+	height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.alert-gay .closeAlert:active {
+	background: linear-gradient(-90deg, purple, blue, green, yellow, orange, red);
+}
